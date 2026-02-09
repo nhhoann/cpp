@@ -1,5 +1,15 @@
 #include <stdio.h>
 
+// Input: Nhâp điểm của sinh viên
+//Output: Hiển thị ra màn hình học lực của sinh viên
+// Biết rằng: 
+// Xuất sắc: điểm >= 9
+// Giỏi: 9 > điểm >= 8
+// Khá: 8 > điểm >= 6.5
+// Trung bình: 6.5 > điểm >= 5
+// Yếu: 5 > điểm > 3.5
+// Kém: 3.5 > điểm
+
 int main () {
     float diem;
     
